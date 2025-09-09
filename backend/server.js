@@ -19,6 +19,9 @@ app.post('/api/admin/register', register);
 app.post('/api/admin/login', login);
 
 // ------------------------------------------------------------------------------------------------
+app.get('/', (req, res) => {
+  res.send('Welcome to the Study Materials API');
+});
 //admin action
 // fetch all students-----------done----------------
 app.get('/api/admin/students', verifyAdmin, async (req, res) => {
