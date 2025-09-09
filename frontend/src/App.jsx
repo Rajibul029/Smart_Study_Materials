@@ -9,7 +9,7 @@ export default function App() {
   const [sendingButton, setSendingButton] = useState(null); // 'gmail' or 'whatsapp'
   const [materials, setMaterials] = useState([]); // New state to store materials data
 
-
+  const BASE_URL = 'http://localhost:3001'; 
 
 
 
@@ -31,7 +31,7 @@ export default function App() {
 
     try {
       // Make a POST request to the new backend API endpoint to send the email
-      const response = await fetch('http://localhost:3001/api/send-materials-email', {
+      const response = await fetch(`${BASE_URL}/api/send-materials-email`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -94,7 +94,7 @@ export default function App() {
 
     try {
       // Make a POST request to the new backend API endpoint
-      const response = await fetch('http://localhost:3001/api/send-materials-whatsapp', {
+      const response = await fetch(`${BASE_URL}/api/send-materials-whatsapp`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
