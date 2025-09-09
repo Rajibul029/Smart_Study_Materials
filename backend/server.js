@@ -140,10 +140,10 @@ app.delete('/api/admin/delete-material/:sem/:materialId', verifyAdmin, async (re
 // ------------------------------------------------------------------------------------------------
 
 const transporter = nodemailer.createTransport({
-  service: process.env.M_SERVICE, 
+  service: process.env.M_SERVICE || 'gmail', 
   auth: {
-    user: process.env.M_USER, 
-    pass: process.env.M_PASS   
+    user: process.env.M_USER || 'rajibulislam62963@@gmail.com', 
+    pass: process.env.M_PASS || 'zypioxlmslsyyndw'  
   }
 });
 
