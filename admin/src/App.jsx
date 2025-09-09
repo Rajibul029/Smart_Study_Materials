@@ -22,7 +22,7 @@ function App() {
 
 
 
-  const BASE_URL = "http://localhost:3001"; 
+  const BASE_URL = "smartstudymaterials-production.up.railway.app"; 
   // ✅ Restore login state on refresh
   useEffect(() => {
     const token = localStorage.getItem("adminToken");
