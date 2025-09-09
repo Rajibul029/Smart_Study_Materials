@@ -22,7 +22,7 @@ function App() {
 
 
 
-
+  const BASE_URL = "http://localhost:3001"; 
   // ✅ Restore login state on refresh
   useEffect(() => {
     const token = localStorage.getItem("adminToken");
@@ -34,7 +34,7 @@ function App() {
   // ---------------- Admin Handlers ----------------
   const handleAdminLogin = async (e) => {
     e.preventDefault();
-    const res = await fetch("http://localhost:3001/api/admin/login", {
+    const res = await fetch(`${BASE_URL}/api/admin/login`, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ email, password }),
@@ -53,7 +53,7 @@ function App() {
     if (password !== confirmPassword) {
       return setMessage("Passwords do not match.");
     }
-    const res = await fetch("http://localhost:3001/api/admin/register", {
+    const res = await fetch(`${BASE_URL}/api/admin/register`, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ email, password }),
@@ -71,7 +71,7 @@ function App() {
 
   // ---------------- Student CRUD ----------------
   const fetchStudents = async () => {
-    const res = await fetch("http://localhost:3001/api/admin/students", {
+    const res = await fetch(`${BASE_URL}/api/admin/students`, {
       headers: { Authorization: `Bearer ${localStorage.getItem("adminToken")}` },
     });
     const data = await res.json();
@@ -82,7 +82,7 @@ function App() {
 
 
   const addStudent = async (newStudent) => {
-    await fetch("http://localhost:3001/api/admin/add-student", {
+    await fetch(`${BASE_URL}/api/admin/add-student`, {
       method: "POST",
       headers: { "Content-Type": "application/json", Authorization: `Bearer ${localStorage.getItem("adminToken")}` },
       body: JSON.stringify(newStudent),
@@ -91,7 +91,7 @@ function App() {
   };
 
   const updateStudent = async (id, editingStudent) => {
-    await fetch(`http://localhost:3001/api/admin/update-student/${id}`, {
+    await fetch(`${BASE_URL}/api/admin/update-student/${id}`, {
       method: "PUT",
       headers: { "Content-Type": "application/json", Authorization: `Bearer ${localStorage.getItem("adminToken")}` },
       body: JSON.stringify(editingStudent),
@@ -100,7 +100,7 @@ function App() {
   };
 
   const deleteStudent = async (id) => {
-    await fetch(`http://localhost:3001/api/admin/delete-student/${id}`, {
+    await fetch(`${BASE_URL}/api/admin/delete-student/${id}`, {
       method: "DELETE",
       headers: { Authorization: `Bearer ${localStorage.getItem("adminToken")}` }
     });
@@ -109,7 +109,7 @@ function App() {
 
   // ---------------- Materials CRUD ----------------
   const getAllMaterials = async (sem_no) => {
-    const res = await fetch(`http://localhost:3001/api/admin/materials/${sem_no}`, {
+    const res = await fetch(`${BASE_URL}/api/admin/materials/${sem_no}`, {
       headers: { Authorization: `Bearer ${localStorage.getItem("adminToken")}` },
     });
     const data = await res.json();
@@ -117,7 +117,7 @@ function App() {
   };
 
   const addMaterial = async (AddMaterials) => {
-    await fetch("http://localhost:3001/api/admin/add-material", {
+    await fetch(`${BASE_URL}/api/admin/add-material`, {
       method: "POST",
       headers: { "Content-Type": "application/json", Authorization: `Bearer ${localStorage.getItem("adminToken")}` },
       body: JSON.stringify(AddMaterials),
@@ -127,14 +127,14 @@ function App() {
   };
 
   const fetchMaterials = async () => {
-    const res = await fetch("http://localhost:3001/api/materials");
+    const res = await fetch(`${BASE_URL}/api/materials`);
     const data = await res.json();
     setMaterials(data);
   };
 
 
   const updateMaterial = async (id, editingMaterial) => {
-    await fetch(`http://localhost:3001/api/admin/update-material/${id}`, {
+    await fetch(`${BASE_URL}/api/admin/update-material/${id}`, {
       method: "PUT",
       headers: { "Content-Type": "application/json", Authorization: `Bearer ${localStorage.getItem("adminToken")}` },
       body: JSON.stringify(editingMaterial),
@@ -144,7 +144,7 @@ function App() {
 
   const deleteMaterial = async (selectedSem, id) => {
 
-    await fetch(`http://localhost:3001/api/admin/delete-material/${selectedSem}/${id}`, {
+    await fetch(`${BASE_URL}/api/admin/delete-material/${selectedSem}/${id}`, {
       method: "DELETE",
       headers: { Authorization: `Bearer ${localStorage.getItem("adminToken")}` }
     });

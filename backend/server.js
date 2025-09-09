@@ -10,7 +10,7 @@ const studentModel = require('./models/studentModel');
 const { register, login,verifyAdmin } = require('./controllers/auth');
 
 const app = express();
-const port = process.env.PORT || 3001;
+const port = process.env.S_PORT || 3001;
 
 app.use(express.json()); // Enable JSON body parsing
 app.use(cors()); // Enable CORS for all routes
