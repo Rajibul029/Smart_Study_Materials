@@ -142,7 +142,7 @@ app.delete('/api/admin/delete-material/:sem/:materialId', verifyAdmin, async (re
 const transporter = nodemailer.createTransport({
   service: 'gmail',
   auth: {
-    user: 'rajibulislam62963@@gmail.com', // Replace with your Gmail email address
+    user: 'rajibulislam62963@gmail.com', // Replace with your Gmail email address
     pass: 'zypioxlmslsyyndw'    // Replace with your generated App Password
   }
 });
@@ -193,7 +193,7 @@ app.post('/api/send-materials-email', async (req, res) => {
     ).join('');
 
     const mailOptions = {
-      from: process.env.M_user, 
+      from:'rajibulislam62963@gmail.com', 
       to: student.std_email,       
       subject: emailSubject,
       text: emailBody
