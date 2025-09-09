@@ -9,7 +9,7 @@ export default function App() {
   const [sendingButton, setSendingButton] = useState(null); // 'gmail' or 'whatsapp'
   const [materials, setMaterials] = useState([]); // New state to store materials data
 
-  const BASE_URL = 'http://localhost:3001'; 
+  const BASE_URL = 'smartstudymaterials-production.up.railway.app'; 
 
 
 
