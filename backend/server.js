@@ -1,5 +1,3 @@
-// This is the backend server file (e.g., server.js) that handles API requests.
-
 const dotenv = require('dotenv');
 dotenv.config();
 
@@ -140,11 +138,13 @@ app.delete('/api/admin/delete-material/:sem/:materialId', verifyAdmin, async (re
 // ------------------------------------------------------------------------------------------------
 
 const transporter = nodemailer.createTransport({
-  service: 'gmail',
+  host: process.env.EMAIL_HOST,
+  port: process.env.EMAIL_PORT,
+  secure: true, // true for 465, false for 587
   auth: {
-    user: 'rajibulislam62963@gmail.com', // Replace with your Gmail email address
-    pass: 'zypioxlmslsyyndw'    // Replace with your generated App Password
-  }
+    user: process.env.EMAIL_USER, 
+    pass: process.env.EMAIL_PASS, 
+  },
 });
 
 
