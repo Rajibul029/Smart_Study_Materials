@@ -193,7 +193,7 @@ app.post('/api/send-materials-email', async (req, res) => {
     ).join('');
 
     const mailOptions = {
-      from:'rajibulislam62963@gmail.com', 
+      from:`'${process.env.EMAIL_USER}'`, 
       to: student.std_email,       
       subject: emailSubject,
       text: emailBody
