@@ -1,12 +1,10 @@
-# 📘 SMART STUDY MATERIAL ACCESS PLATFORM
-
----
-
 <p align="center">
   <img src="https://img.shields.io/badge/Hackathon-NEXATHON%201.0-blueviolet?style=for-the-badge&logo=hackthebox&logoColor=white" />
 </p>
 
-## This is a Hackathon Project
+# 📘 SMART STUDY MATERIAL ACCESS PLATFORM
+
+##### This is a Hackathon Project
 
 ### 💬 Problem Statement
 SMART STUDY MATERIAL ACCESS PLATFORM
@@ -48,6 +46,7 @@ DELIVERY VIA EMAIL/WHATSAPP
 <p align="left"> <img src="https://img.shields.io/badge/Frontend-React-blue?logo=react" /> <img src="https://img.shields.io/badge/Styling-TailwindCSS-38B2AC?logo=tailwindcss" /> <img src="https://img.shields.io/badge/Backend-Node.js-green?logo=node.js" /> <img src="https://img.shields.io/badge/Framework-Express.js-black?logo=express" /> <img src="https://img.shields.io/badge/Database-MySQL-blue?logo=mysql" /> <img src="https://img.shields.io/badge/Auth-JWT-orange?logo=jsonwebtokens" /> <img src="https://img.shields.io/badge/Deployment-Vercel-black?logo=vercel" /> <img src="https://img.shields.io/badge/Deployment-Render-purple?logo=render" /> <img src="https://img.shields.io/badge/Deployment-Railway-0B0D0E?logo=railway" /> <img src="https://img.shields.io/badge/VersionControl-GitHub-black?logo=github" /> <img src="https://img.shields.io/badge/Testing-Postman-orange?logo=postman" /> </p>
 
 ---
+### About Project
 A **full-stack web application** that enables students to instantly access their **study materials** using their **Student Code**.  
 Students can receive materials directly via **Email (Gmail)** or **WhatsApp**.  
 
@@ -89,11 +88,6 @@ Students can receive materials directly via **Email (Gmail)** or **WhatsApp**.
 
 [![MySQL](https://img.shields.io/badge/Database-MySQL-4479A1?logo=mysql&logoColor=white)](https://www.mysql.com/)
 [![MySQL Workbench](https://img.shields.io/badge/Tool-MySQL%20Workbench-00618A?logo=mysql&logoColor=white)](https://dev.mysql.com/doc/workbench/en/)
-
- 
-
- 
- 
 
 ---
 
@@ -169,7 +163,7 @@ EMAIL_USER=your-email@gmail.com
 
 EMAIL_PASS=your-app-password
 
-## Run the backend:
+## Run the backend
 ```bash
 node server.js
 ```
