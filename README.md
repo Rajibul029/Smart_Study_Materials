@@ -65,15 +65,15 @@ smart-materials/
 ## API Endpoints
 ### Method	Endpoint	Description
 
-- POST	/api/check-student	Verify Student Code and fetch materials
+- POST	/api/check-student ➡️	Verify Student Code and fetch materials
 
-- POST	/api/send-materials-email	Send materials to student’s Gmail
+- POST	/api/send-materials-email ➡️	Send materials to student’s Gmail
 
-- POST	/api/send-materials-whatsapp	Send materials via WhatsApp link
+- POST	/api/send-materials-whatsapp ➡️	Send materials via WhatsApp link
 
-- POST	/api/register	Register new user (email & password)
+- POST	/api/register ➡️	Register new user (email & password)
 
-- POST	/api/login	Login with email & password
+- POST	/api/login ➡️	Login with email & password
 
 ---
 ## 📸 UI Pages
@@ -103,7 +103,7 @@ cd backend
 npm install
 ```
 
-### Create a .env file (or edit directly in server.js) with your Gmail App credentials:
+### ➡️ Create a .env file (or edit directly in server.js) with your Gmail App credentials:
 
 EMAIL_USER=your-email@gmail.com
 
