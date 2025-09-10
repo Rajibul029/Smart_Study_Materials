@@ -93,7 +93,7 @@ Footer & Navbar → Always visible with links
 
 ## 1️⃣ Clone the Repository
 ```bash
-git clone https://github.com/your-username/smart-materials.git
+https://github.com/Rajibul029/Smart_Study_Materials.git
 cd smart-materials
 ```
 
