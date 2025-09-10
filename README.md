@@ -1,4 +1,4 @@
-# 📘 Smart Materials Access Platform
+# 📘 SMART STUDY MATERIAL ACCESS PLATFORM
 
 [![React](https://img.shields.io/badge/Frontend-React-blue)](https://reactjs.org/)  
 [![Express](https://img.shields.io/badge/Backend-Express-green)](https://expressjs.com/)  
