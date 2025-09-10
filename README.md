@@ -5,7 +5,7 @@
 [![TailwindCSS](https://img.shields.io/badge/Style-TailwindCSS-38B2AC)](https://tailwindcss.com/)  
 [![Node.js](https://img.shields.io/badge/Runtime-Node.js-43853D)](https://nodejs.org/)  
 
-A **full-stack web application** that enables students to instantly access their **study materials** using their **Student CODE**.  
+A **full-stack web application** that enables students to instantly access their **study materials** using their **Student Code**.  
 Students can receive materials directly via **Email (Gmail)** or **WhatsApp**.  
 
 ---
