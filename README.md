@@ -139,14 +139,13 @@ Use Gmail App Passwords (not your actual password). Learn more: Google Docs.
 
 WhatsApp numbers must be in international format (e.g., +919876543210).
 
-Seed student data must exist in seed.js for testing.
 
 ---
 <p align="center">
   <img src="https://img.shields.io/badge/Hackathon-NEXATHON%201.0-blueviolet?style=for-the-badge&logo=hackthebox&logoColor=white" />
 </p>
 
-## This is a Hackathon project
+## This is a Hackathon Project
 
 ### 💬 Problem Statement
 SMART STUDY MATERIAL ACCESS PLATFORM
@@ -185,7 +184,7 @@ DELIVERY VIA EMAIL/WHATSAPP
 
 ---
 ## Skills & Tools Used
-<p align="left"> <img src="https://img.shields.io/badge/Frontend-React-blue?logo=react" /> <img src="https://img.shields.io/badge/Styling-TailwindCSS-38B2AC?logo=tailwindcss" /> <img src="https://img.shields.io/badge/Backend-Node.js-green?logo=node.js" /> <img src="https://img.shields.io/badge/Framework-Express.js-black?logo=express" /> <img src="https://img.shields.io/badge/Database-MySQL-blue?logo=mysql" /> <img src="https://img.shields.io/badge/Auth-JWT-orange?logo=jsonwebtokens" /> <img src="https://img.shields.io/badge/Deployment-Vercel-black?logo=vercel" /> <img src="https://img.shields.io/badge/Deployment-Render-purple?logo=render" /> <img src="https://img.shields.io/badge/VersionControl-GitHub-black?logo=github" /> <img src="https://img.shields.io/badge/Testing-Postman-orange?logo=postman" /> </p>
+<p align="left"> <img src="https://img.shields.io/badge/Frontend-React-blue?logo=react" /> <img src="https://img.shields.io/badge/Styling-TailwindCSS-38B2AC?logo=tailwindcss" /> <img src="https://img.shields.io/badge/Backend-Node.js-green?logo=node.js" /> <img src="https://img.shields.io/badge/Framework-Express.js-black?logo=express" /> <img src="https://img.shields.io/badge/Database-MySQL-blue?logo=mysql" /> <img src="https://img.shields.io/badge/Auth-JWT-orange?logo=jsonwebtokens" /> <img src="https://img.shields.io/badge/Deployment-Vercel-black?logo=vercel" /> <img src="https://img.shields.io/badge/Deployment-Render-purple?logo=render" /> <img src="https://img.shields.io/badge/Deployment-Railway-0B0D0E?logo=railway" /> <img src="https://img.shields.io/badge/VersionControl-GitHub-black?logo=github" /> <img src="https://img.shields.io/badge/Testing-Postman-orange?logo=postman" /> </p>
 
 ## 📜 License
 
