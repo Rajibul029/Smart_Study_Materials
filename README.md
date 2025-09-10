@@ -97,7 +97,7 @@ https://github.com/Rajibul029/Smart_Study_Materials.git
 cd smart-materials
 ```
 
-## Setup Backend
+## 2️⃣ Setup Backend
 ```bash
 cd backend
 npm install
@@ -115,7 +115,7 @@ node server.js
 ```
 Server runs on: http://localhost:3001
 
-## Setup Frontend
+## 3️⃣ Setup Frontend
 ```bash
 cd frontend
 npm install
@@ -124,7 +124,7 @@ npm run dev
 
 Frontend runs on: http://localhost:5173
 
-## Setup Admin
+## 4️⃣ Setup Admin
 ```bash
 cd admin
 npm install
