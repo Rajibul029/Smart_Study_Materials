@@ -4,8 +4,15 @@
 
 # 📘 SMART STUDY MATERIAL ACCESS PLATFORM
 
-##### This is a Hackathon Project
+### This is a Hackathon Project
 
+#### Live URL
+
+#### Frontend: https://smart-study-materials-frontend.onrender.com/
+
+#### Admin: https://smart-study-materials-admin.onrender.com/
+
+---
 ### 💬 Problem Statement
 SMART STUDY MATERIAL ACCESS PLATFORM
 
